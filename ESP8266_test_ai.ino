@@ -11,7 +11,7 @@ String sendData(String command, const int timeout, boolean debug){
         response+=c;
       }  
     }
-    if(DEBUG)    {
+    if(DEBUG)    {111
         Serial.print(response);
     }
     return response;
